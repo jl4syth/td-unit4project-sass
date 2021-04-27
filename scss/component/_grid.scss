@@ -1,0 +1,31 @@
+//========================
+// Grid Styles
+//========================
+
+.container {
+    padding: 0 $gutter;
+    
+}
+
+.row {
+    @include flex-col;
+    padding: 1em $gutter;
+}
+  
+[class^=col] {
+    margin-top: $gutter;
+    flex-basis: $full;
+    min-height: 25px;
+    padding: $gutter;
+    border-radius: 5px;
+}
+
+.card {
+    flex-basis: $full;
+}
+
+@each $theme, $color in $themes {
+    .theme.#{$theme} {
+        background-color: $color;
+    }
+}

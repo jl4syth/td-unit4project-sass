@@ -1,0 +1,14 @@
+//=======================
+// Buttons
+//=======================
+
+.btn {
+    @include buttons($buttons);
+    margin-top: 15px;
+    width: $full;
+    color: $white-color;
+    border: none;
+    padding: $gutter 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }

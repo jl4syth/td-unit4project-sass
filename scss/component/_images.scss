@@ -1,0 +1,20 @@
+//========================
+// Images
+//========================
+
+img {
+  @include centered;
+  margin-top: $gutter;
+  max-width: $full;
+  &.img-avatar {
+    max-height: $full;
+  }
+  &.img-frame {
+    padding: 13px;
+    border: 1px solid $accent-color;
+  }
+}
+
+
+
+  

@@ -1,0 +1,55 @@
+//======================== 
+// Variables
+//========================
+
+// Colors
+$font-color: #777; //dark gray
+$primary-color: #58e1c1; //teal
+$secondary-color: #51ddfc; //light blue
+$white-color: #fff; //white
+$accent-color: #ccc; //light gray
+
+$info-color: #927bc1; //info button
+$error-color: #e4757a; //error button
+$success-color: #63cc82; //success button
+$warning-color: #fd7856; //warning button
+
+
+// Font Families
+$main-font: 'Lato', sans-serif;
+
+// Font Weights
+$bolded: 700;
+$light: 300;
+
+// Breakpoints
+$break-m: 768px;
+
+// Layout
+$gutter: 10px;
+$full: 100%;
+
+// Button Colors
+$buttons: (
+    'default': $secondary-color,
+      'error': $error-color,
+       'info': $info-color,
+    'success': $success-color,
+    'warning': $warning-color,
+);
+
+// Col Colors
+$themes: (
+  'col-1': $info-color,
+  'col-2': $warning-color,
+  'col-3': #deb2ee,
+  'col-4': #7ee6fd,
+  'col-5': #88d9a0,
+  'col-6': #4da2bb,
+  'col-7': #ec9fa3,
+  'col-8': #fd9f85,
+  'col-9': $error-color,
+ 'col-10': $success-color,
+ 'col-11': $secondary-color,
+ 'col-12': #80e8d1,
+);
