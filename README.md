@@ -1,1 +1,1 @@
-A SaSS project where the HTML and CSS was provided, but I had to create all the scss files and oraganize the code into a DRY SaSS.
+A SaSS project where the HTML and CSS was provided (See Resources File), but I had to create all the scss files and oraganize the code into a DRY SaSS.
